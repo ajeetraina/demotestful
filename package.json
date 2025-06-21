@@ -1,0 +1,69 @@
+{
+  "name": "demotestful",
+  "version": "1.0.0",
+  "description": "A demo full stack project with IDE comparisons and automated workflows",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "build": "webpack --mode production",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "format": "prettier --write src/"
+  },
+  "keywords": [
+    "full-stack",
+    "nodejs",
+    "react",
+    "express",
+    "docker",
+    "ci-cd",
+    "github-actions"
+  ],
+  "author": "DemoTestFul Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "mongoose": "^7.5.0",
+    "redis": "^4.6.7",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-react": "^7.22.5",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "html-webpack-plugin": "^5.5.3",
+    "jest": "^29.6.1",
+    "supertest": "^6.3.3",
+    "nodemon": "^3.0.1",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-react": "^7.33.0",
+    "prettier": "^3.0.0",
+    "@types/jest": "^29.5.3"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajeetraina/demotestful.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ajeetraina/demotestful/issues"
+  },
+  "homepage": "https://github.com/ajeetraina/demotestful#readme"
+}
